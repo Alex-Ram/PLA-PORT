@@ -1,0 +1,109 @@
+@media screen and (min-width: 550px) {
+
+
+  /**********************
+  Two Column Layout
+  **********************/
+
+  #primary {
+    width: 50%;
+    float:left;
+  }
+  #secondary {
+    width: 40%;
+    float: right;
+
+  }
+  /**********************
+  Style for Port Page
+  **********************/
+  #gallery li {
+    width: 28.3333%;
+
+  }
+
+  #gallery li:nth-child(4n) {
+    clear:left;
+  }
+  /**********************
+  About Page
+  **********************/
+  .profile-photo {
+    float:left;
+    margin: 0 5% 80px 30%;
+
+  }
+  html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    margin: 0;
+    min-height: 95%;
+
+  }
+
+
+  footer {
+    font-size 0.75em;
+    text-align: center;
+    clear: both;
+    color: #5AC3B3;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 25px;
+
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+  table {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 690px) {
+
+  /**********************
+  Header
+  **********************/
+  nav {
+    background:none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  #logo  {
+    float:left;
+    text-align:left;
+    width:45%;
+    margin-left: 5%;
+
+  }
+
+  h1{
+    font-size: 2.5em;
+
+  }
+
+  h2{
+    margin-bottom: 25px;
+    font-size: 1.05em;
+  }
+
+  header{
+    border-bottom: 5px solid #44AC9D;
+    margin-bottom: 60px;
+  }
+
+}
